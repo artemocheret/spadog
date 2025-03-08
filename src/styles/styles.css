@@ -31,6 +31,12 @@ body {
   padding-top: 30px;
 }
 
+.nav-list {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
 .nav-link {
   color: var(--color-bg-section);
   font-family: var(--font-secondary);
@@ -47,10 +53,17 @@ body {
 }
 
 /* hero */
+.hero-container {
+  display: flex;
+  gap: 342px;
+}
+
 .hero-title {
   font-size: 64px;
   text-transform: capitalize;
   font-weight: 400;
+  line-height: 85px;
+  margin-bottom: 50px;
 }
 
 .hero-title-part {
@@ -63,6 +76,8 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--color-button);
   font-family: var(--font-secondary);
+  padding: 15px 80px;
+  border-radius: 5px;
 }
 
 /* about */
